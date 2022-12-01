@@ -1,0 +1,3 @@
+server_port: 8081
+
+postgres_dsn: "postgres://farzaneh:3971231050@postgres/ukit?sslmode=disable"
