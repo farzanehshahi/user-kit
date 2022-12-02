@@ -11,8 +11,6 @@ type instrumentingService struct {
 	requestCount   metrics.Counter
 	requestLatency metrics.Histogram
 
-	//	countResult metrics.Histogram
-
 	next Service
 }
 

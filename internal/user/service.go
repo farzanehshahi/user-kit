@@ -2,7 +2,6 @@ package user
 
 import (
 	"context"
-	"fmt"
 	"github.com/farzanehshahi/user-kit/internal/customErrors"
 	"github.com/farzanehshahi/user-kit/internal/entity"
 	"github.com/farzanehshahi/user-kit/pkg/validator"
@@ -40,8 +39,6 @@ func (s service) Create(ctx context.Context, reqUser *entity.User) error {
 	if err := s.repo.Create(ctx, reqUser); err != nil {
 		return err
 	}
-
-	fmt.Println("user in service:", reqUser)
 
 	s.logger.Log("user created successfully.")
 	return nil
