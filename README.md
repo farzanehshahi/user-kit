@@ -6,20 +6,6 @@ A production-ready **User CRUD** microservice written in **Go** with **go-kit**,
 - Structured logging & middlewares
 - One-command local stack via Docker Compose
 
-## Table of Contents
-
-- [Architecture](#architecture)
-- [Directory Layout](#directory-layout)
-- [Quick Start (Docker)](#quick-start-docker)
-- [Configuration](#configuration)
-- [Database Migrations](#database-migrations)
-- [API Endpoints](#api-endpoints)
-- [Monitoring](#monitoring)
-- [Local Development (without Docker)](#local-development-without-docker)
-- [Testing](#testing)
-- [Roadmap](#roadmap)
-- [License](#license)
-
 ## Architecture
 
 This service follows go-kit’s classic layering:
